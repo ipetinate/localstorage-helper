@@ -1,5 +1,9 @@
 # Local Storage Helper
 
+
+> NPM: https://www.npmjs.com/package/localstorage-helpr
+
+
 - 🇧🇷 Lide de forma mais segura com o window.localStorage através deste Helper, que aplica algumas validações de objeto e parse de objetos para string (e vice-versa).
 - 🇬🇧 Handle window.localStorage more securely through this Helper, which applies some object validations and object parse to string (and vice versa).
 
