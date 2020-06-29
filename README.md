@@ -50,7 +50,7 @@ objectDeserialize(arrayIsObj) // [ 1, 3, 5, 7, 9]
 
 ```
 
-- ![Imagem de demonstração/Demo image](https://github.com/ipetinate/localstorage-helper/blob/master/docs/img/Screenshot%20from%202020-06-29%2003-49-11.png)
+- ![Imagem de demonstração/Demo image](https://github.com/ipetinate/localstorage-helper/blob/master/docs/img/example.png)
 
 ---
 
@@ -58,3 +58,6 @@ objectDeserialize(arrayIsObj) // [ 1, 3, 5, 7, 9]
 
 - 🇧🇷 Por baixo dos panos ao criar ou atualizar um item, se for um objeto ele irá serializar para string, assim não corremos o risco de perder os dados ou corrompe-los, e na hora de recuperar com o read ele irá desserializar para que você tenha seu objeto intacto.
 - 🇬🇧 Under the hood when creating or updating an item, if it is an object it will serialize to string, so we don't run the risk of losing data or corrupting it, and when recovering with read it will deserialize for you to have your object intact.
+
+- 🇧🇷 Caso sinta necessidade de entender melhor sobre os métodos, [você pode conferir os testes de unidade aqui](https://github.com/ipetinate/localstorage-helper/tree/master/src) dentro de cada pasta tem seu respectivo arquivo de teste.
+- 🇬🇧 If you feel the need to better understand the methods, [you can check the unit tests here](https://github.com/ipetinate/localstorage-helper/tree/master/src) inside each folder has its respective test file.
