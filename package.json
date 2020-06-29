@@ -1,6 +1,6 @@
 {
   "name": "localstorage-helpr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Handle window.localStorage more securely through this Helper, which applies some object validations and object parse to string (and vice versa).",
   "main": "index.js",
   "repository": "https://github.com/ipetinate/localstorage-helper.git",
