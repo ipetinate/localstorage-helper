@@ -8,7 +8,8 @@
 - 🇬🇧 Handle window.localStorage more securely through this Helper, which applies some object validations and object parse to string (and vice versa).
 
 - [GitHub](https://github.com/ipetinate/localstorage-helper)
-- [Stackblitz - Live Demo](https://stackblitz.com/edit/localstorage-helpr)
+- [Stackblitz - Live Demo [JS vanilla]](https://stackblitz.com/edit/localstorage-helpr)
+- [Stackblitz - Live Demo [React Web]](https://stackblitz.com/edit/localstorage-helpr-react)
 
 ---
 
