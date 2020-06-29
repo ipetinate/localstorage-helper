@@ -16,7 +16,7 @@
 - 🇬🇧 Run ``npm i --save localstorage-helpr`` or ``yarn add localstorage-helpr``
 
 ```javascript
-const { create, update, remove, read, clear } = require('localstorage-helper')
+const { create, update, remove, read, clear } = require('localstorage-helpr')
 
 const KEY = 'CHAVE'
 const VALUE = 'VALOR'
