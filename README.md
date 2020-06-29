@@ -4,7 +4,7 @@
 - 🇬🇧 Handle window.localStorage more securely through this Helper, which applies some object validations and object parse to string (and vice versa).
 
 - [GitHub](https://github.com/ipetinate/localstorage-helper)
-- [Stackblitz - Live Demo](http://stackblitz.io) - coming soon
+- [Stackblitz - Live Demo](https://localstorage-helpr.stackblitz.io)
 
 ---
 
