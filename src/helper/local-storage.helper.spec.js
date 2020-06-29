@@ -1,18 +1,10 @@
 /**
- * @jest-environment jsdom
- */
+* @jest-environment jsdom
+*/
 
 require('jest-localstorage-mock');
 
-const {
-  clear,
-  create,
-  objectDeserialize,
-  objectSerialize,
-  read,
-  remove,
-  update
-} = require('./local-storage.helper')
+const { clear, create, read, remove, update } = require('./local-storage.helper')
 
 describe('LocalStorage Helper', () => {
 
@@ -64,8 +56,8 @@ describe('LocalStorage Helper', () => {
   test(
     'Should remove an item from localStorage using a key',
     () => {
-      const KEY = 'key'
-      const VALUE = 'value'
+      const KEY = 'CHAVE'
+      const VALUE = 'VALOR'
 
       create(KEY, VALUE)
 
