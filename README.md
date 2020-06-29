@@ -66,7 +66,7 @@ objectDeserialize(arrayIsObj) // [ 1, 3, 5, 7, 9]
 
 ```
 
-- ![Imagem de demonstração/Demo image](https://github.com/ipetinate/localstorage-helper/blob/master/docs/img/example.png)
+- ![Imagem de demonstração/Demo image](https://imgur.com/5icRtxL)
 
 ---
 
