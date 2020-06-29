@@ -10,10 +10,10 @@
 
 > 🇧🇷 Como usar | 🇬🇧 How to use
 
-- 🇧🇷 Rode ``npm i --save localstorage-helper`` ou ``yarn add localstorage-helper``
+- 🇧🇷 Rode ``npm i --save localstorage-helpr`` ou ``yarn add localstorage-helpr``
 
 
-- 🇬🇧 Run ``npm i --save localstorage-helper`` or ``yarn add localstorage-helper``
+- 🇬🇧 Run ``npm i --save localstorage-helpr`` or ``yarn add localstorage-helpr``
 
 ```javascript
 const { create, update, remove, read, clear } = require('localstorage-helper')
