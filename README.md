@@ -3,9 +3,17 @@
 - 🇧🇷 Lide de forma mais segura com o window.localStorage através deste Helper, que aplica algumas validações de objeto e parse de objetos para string (e vice-versa).
 - 🇬🇧 Handle window.localStorage more securely through this Helper, which applies some object validations and object parse to string (and vice versa).
 
+- [GitHub](https://github.com/ipetinate/localstorage-helper)
+- [Stackblitz - Live Demo](http://stackblitz.io) - coming soon
+
 ---
 
 > 🇧🇷 Como usar | 🇬🇧 How to use
+
+- 🇧🇷 Rode ``npm i --save localstorage-helper`` ou ``yarn add localstorage-helper``
+
+
+- 🇬🇧 Run ``npm i --save localstorage-helper`` or ``yarn add localstorage-helper``
 
 ```javascript
 const { create, update, remove, read, clear } = require('localstorage-helper')
@@ -30,7 +38,10 @@ clear()
 
 // -----------------------------------------------------
 
-> BONUS
+// > BONUS
+
+// 🇧🇷 Você tem acesso aos métodos usados internamente para manipular os dados
+// 🇬🇧 You have access to the methods used internally to manipulate the data
 
 const { isObject, objectDeserialize, objectSerialize, } = require('localstorage-helper')
 
