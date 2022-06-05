@@ -7,7 +7,7 @@ import {
   remove,
   update,
   isObject
-} from "./src/helper/local-storage.helper";
+} from "./dist/helper/local-storage.helper";
 
 export {
   clear,

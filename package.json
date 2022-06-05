@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest --watchAll=true"
+    "test": "jest --watchAll=true",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^28.1.0",
