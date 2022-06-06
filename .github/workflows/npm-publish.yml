@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm install
       - run: npm run build
 
   test:
@@ -28,7 +27,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm run test
+      - run: npm run test:nowatch
 
   update-version:
     needs: test
