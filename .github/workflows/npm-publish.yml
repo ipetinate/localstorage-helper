@@ -23,14 +23,7 @@ jobs:
       - name: Testing 🛠
       - run: npm run test:nowatch
       - name: Delivering to NPM 🚚📦
-<<<<<<< HEAD
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npx semantic-release
-=======
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          run: npx semantic-release
->>>>>>> bb017ba9b5482d5ae89932d112762f8a820fbca1
