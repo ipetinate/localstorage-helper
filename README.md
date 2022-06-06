@@ -1,6 +1,6 @@
 # Local Storage Helper
 
-[![Publish to NPM](https://github.com/ipetinate/localstorage-helper/actions/workflows/publish.yml/badge.svg)](https://github.com/ipetinate/localstorage-helper/actions/workflows/publish.yml)
+[![Publish Package to NPM](https://github.com/ipetinate/localstorage-helper/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/ipetinate/localstorage-helper/actions/workflows/npm-publish.yml)
 
 > NPM: https://www.npmjs.com/package/localstorage-helpr
 
