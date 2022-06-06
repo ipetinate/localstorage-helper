@@ -18,7 +18,7 @@ jobs:
       - name: Building 🚧
         run: npm run build
       - name: Bumping Version ➕
-        run: npm version minor
+        run: npm version minor --force
       - name: Publishing package on NPM 📦
         run: npm publish
         env:
