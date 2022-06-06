@@ -17,13 +17,13 @@ jobs:
         with:
           node-version: 16
       - name: Installing Dependencies 🎰
-      - run: npm ci
+        run: npm ci
       - name: Building 🏗
-      - run: npm run build
+        run: npm run build
       - name: Testing 🛠
-      - run: npm run test:nowatch
+        run: npm run test:nowatch
       - name: Delivering to NPM 🚚📦
-      - run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
