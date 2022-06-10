@@ -940,29 +940,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^8.0.0":
-  version "8.0.4"
-  resolved "https://registry.npmjs.org/@semantic-release/github/-/github-8.0.4.tgz"
-  integrity sha512-But4e8oqqP3anZI5tjzZssZc2J6eoUdeeE0s7LVKKwyiAXJiQDWNNvtPOpgG2DsIz4+Exuse7cEQgjGMxwtLmg==
-  dependencies:
-    "@octokit/rest" "^18.0.0"
-    "@semantic-release/error" "^2.2.0"
-    aggregate-error "^3.0.0"
-    bottleneck "^2.18.1"
-    debug "^4.0.0"
-    dir-glob "^3.0.0"
-    fs-extra "^10.0.0"
-    globby "^11.0.0"
-    http-proxy-agent "^5.0.0"
-    https-proxy-agent "^5.0.0"
-    issue-parser "^6.0.0"
-    lodash "^4.17.4"
-    mime "^3.0.0"
-    p-filter "^2.0.0"
-    p-retry "^4.0.0"
-    url-join "^4.0.0"
-
-"@semantic-release/github@^8.0.4":
+"@semantic-release/github@^8.0.0", "@semantic-release/github@^8.0.4":
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.4.tgz#4ea242f6ad10a0474b0fbb09462e10c43518002a"
   integrity sha512-But4e8oqqP3anZI5tjzZssZc2J6eoUdeeE0s7LVKKwyiAXJiQDWNNvtPOpgG2DsIz4+Exuse7cEQgjGMxwtLmg==
@@ -984,26 +962,7 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/npm@^9.0.0":
-  version "9.0.1"
-  resolved "https://registry.npmjs.org/@semantic-release/npm/-/npm-9.0.1.tgz"
-  integrity sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g==
-  dependencies:
-    "@semantic-release/error" "^3.0.0"
-    aggregate-error "^3.0.0"
-    execa "^5.0.0"
-    fs-extra "^10.0.0"
-    lodash "^4.17.15"
-    nerf-dart "^1.0.0"
-    normalize-url "^6.0.0"
-    npm "^8.3.0"
-    rc "^1.2.8"
-    read-pkg "^5.0.0"
-    registry-auth-token "^4.0.0"
-    semver "^7.1.2"
-    tempy "^1.0.0"
-
-"@semantic-release/npm@^9.0.1":
+"@semantic-release/npm@^9.0.0", "@semantic-release/npm@^9.0.1":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-9.0.1.tgz#d81828eb1fb771e2767b3a8ee989915e1af27075"
   integrity sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g==
@@ -1022,23 +981,7 @@
     semver "^7.1.2"
     tempy "^1.0.0"
 
-"@semantic-release/release-notes-generator@^10.0.0":
-  version "10.0.3"
-  resolved "https://registry.npmjs.org/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.3.tgz"
-  integrity sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==
-  dependencies:
-    conventional-changelog-angular "^5.0.0"
-    conventional-changelog-writer "^5.0.0"
-    conventional-commits-filter "^2.0.0"
-    conventional-commits-parser "^3.2.3"
-    debug "^4.0.0"
-    get-stream "^6.0.0"
-    import-from "^4.0.0"
-    into-stream "^6.0.0"
-    lodash "^4.17.4"
-    read-pkg-up "^7.0.0"
-
-"@semantic-release/release-notes-generator@^10.0.3":
+"@semantic-release/release-notes-generator@^10.0.0", "@semantic-release/release-notes-generator@^10.0.3":
   version "10.0.3"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.3.tgz#85f7ca78bfa6b01fb5fda0ac48112855d69171dc"
   integrity sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==
@@ -1939,19 +1882,12 @@ dateformat@^3.0.0:
   resolved "https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-debug@4, debug@^4.3.3:
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
-
-debug@^4.0.0, debug@^4.1.0, debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.1.1.tgz"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
-  dependencies:
-    ms "^2.1.1"
 
 debuglog@^1.0.1:
   version "1.0.1"
@@ -3840,7 +3776,7 @@ modify-values@^1.0.0:
   resolved "https://registry.npmjs.org/modify-values/-/modify-values-1.0.1.tgz"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-ms@2.1.2, ms@^2.1.1:
+ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
@@ -4712,9 +4648,9 @@ saxes@^5.0.1:
     xmlchars "^2.2.0"
 
 semantic-release@^19.0.2:
-  version "19.0.2"
-  resolved "https://registry.npmjs.org/semantic-release/-/semantic-release-19.0.2.tgz"
-  integrity sha512-7tPonjZxukKECmClhsfyMKDt0GR38feIC2HxgyYaBi+9tDySBLjK/zYDLhh+m6yjnHIJa9eBTKYE7k63ZQcYbw==
+  version "19.0.3"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-19.0.3.tgz#9291053ad9890052f28e7c5921d4741530d516fd"
+  integrity sha512-HaFbydST1cDKZHuFZxB8DTrBLJVK/AnDExpK0s3EqLIAAUAHUgnd+VSJCUtTYQKkAkauL8G9CucODrVCc7BuAA==
   dependencies:
     "@semantic-release/commit-analyzer" "^9.0.2"
     "@semantic-release/error" "^3.0.0"
